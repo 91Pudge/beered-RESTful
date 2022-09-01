@@ -1,0 +1,2 @@
+class BeerItem < ApplicationRecord
+end
