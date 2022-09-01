@@ -1,6 +1,8 @@
+<div class="main">
+<div class="form">
+<h4></h4>
 <%= form_with(model: beer) do |form| %>
   <% if beer.errors.any? %>
-  <div class="main">
     <div style="color: red">
       <h2><%= pluralize(beer.errors.count, "error") %> prohibited this beer from being saved:</h2>
 
@@ -34,6 +36,7 @@
 
   <div>
     <%= form.submit %>
+  </div>
   </div>
   </div>
 <% end %>
