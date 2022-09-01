@@ -1,14 +1,14 @@
-<p style="color: green"><%= notice %></p>
 
-<h1>Beers</h1>
+<h1>beered.co.jp</h1>
 
 <div id="beers">
   <% @beers.each do |beer| %>
     <%= render beer %>
+    </div>
     <p>
-      <%= link_to "Show this beer", beer %>
+    <%= link_to "Show beer", beer %>
+    <div id="newBeerButton">
+    <%= link_to "Add beer", new_beer_path %>
+    </div>
     </p>
   <% end %>
-</div>
-
-<%= link_to "New beer", new_beer_path %>
