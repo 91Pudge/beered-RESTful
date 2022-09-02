@@ -43,8 +43,8 @@ a{
     margin-bottom: 10px;  
     margin-top: 100px;
     text-decoration: none;
-    background-color: #EEEEEE;
-    color: #333333;
+    background-color: black;
+    color: white;
     padding: 2px 6px 2px 6px;
     border-radius: 10px;
     text-align: center; 
@@ -67,8 +67,33 @@ h4{
     width: 400px;
     margin-top: -20px;
 }
+
 .form{
     margin-top: 10px;
 }
 
+#addButton{
+    margin-top: 10px;
+    color: white;
+}
 
+.cup-pint{
+border-left:1rem solid black; ;
+border-radius: 0.3rem 0.3rem 2rem 2rem;
+border-left: 1rem solid transparent;
+border-right: 1rem solid transparent;
+border-top: 7rem solid rgba(246, 183, 7, 0.5);
+}
+
+.cup-pint1{
+
+ margin-left: 9px;
+border-radius: 0.3rem 0.3rem 1rem 5rem;
+border-top:1rem solid white; 
+animation: filling 10s ease-in-out infinite;
+border-right: 0.05rem solid transparent;
+border-left: 0.05rem solid transparent;
+background:transparent;
+width: 4rem; 
+ }
+ 

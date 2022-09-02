@@ -1,6 +1,8 @@
 
 <h1>beered.co.jp</h1>
-
+<div id="addButton">
+<%= link_to "Add beer", new_beer_path %>
+</div>
 <div id="beers">
   <% @beers.each do |beer| %>
     <%= render beer %>
@@ -8,7 +10,6 @@
     <p>
     <%= link_to "Show beer", beer %>
     <div id="newBeerButton">
-    <%= link_to "Add beer", new_beer_path %>
     </div>
     </p>
   <% end %>
